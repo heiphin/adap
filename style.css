@@ -357,33 +357,10 @@ footer{
     padding-top: 1880px;
     font-size: 30px;
 }
-
-@media (min-width: 768px) {
-    .header1 {
-        height: 150px;
-    }
-    .logo {
-        width: 120px;
-        height: 120px;
-    }
-    .gl,
-    .gl1,
-    .voi {
-        font-size: 30px;
+@media (max-width: 768px) {
+    .gl, .gl1 {
+        display: block;
+        padding: 10px 0;
     }
 }
 
-@media (min-width: 1024px) {
-    .header1 {
-        height: 180px;
-    }
-    .logo {
-        width: 150px;
-        height: 150px;
-    }
-    .gl,
-    .gl1,
-    .voi {
-        font-size: 40px;
-    }
-}
